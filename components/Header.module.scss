@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; 
+    padding: 1rem 2rem;
+  }
+  
+  .image {
+    margin-right: 2rem;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav ul li a:hover {
+    color: #32cd32; 
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .primaryButton {
+    background-color: green;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .primaryButton:hover {
+    background-color: #32cd32;
+  }
+  
+  .secondaryButton {
+    background-color: black;
+    color: green;
+    padding: 0.5rem 1rem;
+    border: 1px solid green;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .secondaryButton:hover {
+    background-color: green;
+    color: white;
+  }
+  

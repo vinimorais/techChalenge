@@ -1,0 +1,178 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f4f6f9;
+}
+
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.MainPage h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.MainPage h2 {
+  font-size: 24px;
+  color: #28a745;
+  margin-bottom: 30px;
+}
+
+.MainPage section {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 850px;
+  flex-grow: 1;
+  transition: transform 0.3s ease-in-out;
+}
+
+.MainPage section:hover {
+  transform: scale(1.02);
+}
+
+.MainPage h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.MainPage ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.MainPage li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MainPage li:hover {
+  background-color: #f7f7f7;
+}
+
+.MainPage button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.MainPage button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.MainPage button:focus {
+  outline: none;
+}
+
+.MainPage button.delete {
+  background-color: #f44336;
+}
+
+.MainPage button.delete:hover {
+  background-color: #d32f2f;
+}
+
+.MainPage button.save {
+  background-color: #4caf50;
+}
+
+.MainPage button.save:hover {
+  background-color: #45a049;
+}
+
+.MainPage label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+.MainPage .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+.MainPage input,
+.MainPage select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+.MainPage input:focus,
+.MainPage select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.MainPage input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.MainPage input[type="number"]::-webkit-outer-spin-button,
+.MainPage input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.MainPage button.addTransaction {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px 0;
+  background-color: #28a745;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.MainPage button.addTransaction:hover {
+  background-color: #218838;
+}
+
+.MainPage .credit {
+  color: #28a745;
+}
+
+.MainPage .debit {
+  color: #f44336;
+}
+
+.MainPage .transactionAmount {
+  font-weight: bold;
+  font-size: 16px;
+}

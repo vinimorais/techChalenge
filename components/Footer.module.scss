@@ -1,0 +1,66 @@
+.footer {
+  position: fixed; 
+  bottom: 0;  
+  left: 0;  
+  width: 100%;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 224px;  
+  padding: 47px 348px;  
+  z-index: 1000;  
+}
+
+.footerSection {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footerSection h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerSection li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.lastFooterSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
+
+.lastFooterSection h4 {
+  margin-bottom: 20px; 
+}
+
+.bytebankLogo img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.socialIcons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
